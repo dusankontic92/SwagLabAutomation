@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test">
+    <test name="Log In With Empty Username">
+        <classes>
+            <class name="swag.lab.final1.LoginWithEmptyUsername"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Log In With Valid Credentials">
+        <classes>
+            <class name="swag.lab.final1.LogInWithValidCredentialsTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Valid Log Out">
+        <classes>
+            <class name="swag.lab.final1.ValidLogOut"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Plp Sorting">
+        <classes>
+            <class name="swag.lab.final1.PlpSorting"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Check Out">
+        <classes>
+            <class name="swag.lab.final1.CheckOut"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
